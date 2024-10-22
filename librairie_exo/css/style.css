@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&display=swap');
+
+*,::after,::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, span {
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+p, div {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+/* HEADER */
+
+
+header , ul{
+  display: flex;
+  /* alignement horizontal */
+  justify-content: space-between;
+  /* alignement vertical */
+  align-items: center;
+  /* justify-content & align-items ne fonctionnenent si et seulement si display est présent */ 
+  background-color: coral;
+  height: 5rem;
+}
+
+img{
+  width: 10rem;
+}
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  padding-left: 1rem;
+  font-family: "Overpass", sans-serif;
+  font-weight:bolder;
+}
+
+/* MAIN */
+
+main{
+  background-color: rgb(236, 202, 36);
+}
+
+/* BANNER */
+
+.banner{
+  background-image: url("../images/image.jpeg");
+  width: 100%;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* SEARCH BAR */
+
+.search {
+  text-align: center;
+  margin: 3rem auto ;
+}
+
+input{
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border: 0.15rem solid black ;
+  outline: solid  rgb(72, 69, 69);
+}
+
+/* SECTION #1 */
+
+/* SECTION BOOK LIST */
+
+.book-list{
+  background-color: aliceblue;
+  margin: 0 15% 2rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+}
+
+/* CARD  */
+
+.book-list-card{
+
+  margin: 2rem 0 0 0;
+
+}
+
+.book-list-image{
+  background-image: url(../images/image.jpeg);
+  width: 4rem;
+  height: 4rem;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0.5rem 0.6rem 0.7rem grey;
+  border-radius: 0.2rem;
+}
+
+.book-list-card-title, .book-list-card-author {
+  text-shadow: 0.5rem 0.6rem 0.5rem rgb(7, 7, 7) ;
+}
+
+
+.book-list-card-title{
+  font-weight: bold;
+}
+
+
+.book-list-card-author {
+  font-style: italic;
+}
+
+
+
+
+
+.book-list-card{
+  padding-right: 2rem;
+  width: 25%;
+}
+
+.wrapper-one, .wrapper-two {
+  display: flex;
+ 
+}
+
+/* FOOTER */
+
+footer{
+  background-color: rgba(101, 191, 62, 0.477);
+  text-align: center;
+}
+
+
+.socials-medias-icon1{
+  background-image: url(../images/instagram.png);
+  width: 2rem;
+  height: 2rem;
+  background-position: center;
+  background-size: cover;
+  margin: 0.5rem 0.5rem;
+}
+
+.socials-medias-icon2{
+  background-image: url(../images/social-media.png);
+  width: 2rem;
+  height: 2rem;
+  background-position: center;
+  background-size: cover;
+  margin: 0.5rem 0.5rem;
+}
+
+.socials-medias-icon3{
+  background-image: url(../images/linkedin.png);
+  width: 2rem;
+  height: 2rem;
+  background-position: center;
+  background-size: cover;
+  margin: 0.5rem 0.5rem;
+}
+
+
+.socials-medias{
+  display: flex;
+ justify-content: center;
+
+}
+
+.copyright{
+  padding-bottom: 0.3rem;
+}
+
+
+
+
+@media (width > 480px ) {
+
+header, ul{
+
+ 
+
+}
+
+
+}
+
+
+@media (481px < width < 1280px) {
+
+  header {background-color: green;
+}
+}
+

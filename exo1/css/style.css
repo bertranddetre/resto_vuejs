@@ -1,0 +1,42 @@
+/* Header_Navbar */
+
+.jordan{
+  display: flex;
+}
+
+li{
+  list-style-type: none ;
+  padding: 0 0.2rem;
+  margin: 0 0 40px 0;
+}
+
+
+
+img {
+  filter: sepia(100%);
+}
+
+p{
+  text-transform: capitalize;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+em{
+  background-color: #de16d7;
+}
+
+h1, h3{
+  background-color: aquamarine;
+}
+
+
+
+.mickey{
+  background-color: blue;
+  color: antiquewhite;
+}
+
+
+#donald{
+  background-color: chocolate;
+}
